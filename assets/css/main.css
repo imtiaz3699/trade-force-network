@@ -2528,3 +2528,12 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+
+.custom-bullet li {
+  position: relative;
+}
+.custom-bullet li::marker {
+  color: #E96B56;
+  font-size: 1.2em;
+}
