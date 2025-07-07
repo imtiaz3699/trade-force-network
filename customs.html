@@ -1,445 +1,814 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Blog - Eterna Bootstrap Template</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Blog - Eterna Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: Eterna
   * Template URL: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/
   * Updated: Jun 25 2025 with Bootstrap v5.3.6
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body class="blog-page">
-
-  <header id="header" class="header sticky-top">
-
-    <div class="topbar d-flex align-items-center dark-background">
-      <div class="container d-flex justify-content-center justify-content-md-between">
-        <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center"><a
-              href="mailto:contact@example.com">contact@example.com</a></i>
-          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
-        </div>
-        <div class="social-links d-none d-md-flex align-items-center">
-          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        </div>
-      </div>
-    </div><!-- End Top Bar -->
-
-    <div class="branding">
-
-      <div class="container position-relative d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo d-flex align-items-center">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.webp" alt=""> -->
-          <h1 class="sitename">Eterna<br></h1>
-        </a>
-
-        <nav id="navmenu" class="navmenu">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="general-trading.html">General Trading</a></li>
-            <li><a href="project-management.html">Project Management</a></li>
-            <li><a href="customs.html" class='active'>Customs</a></li>
-            <li><a href="marketing.html">Marketing</a></li>
-            <li><a href="e-commerce.html">Our Products</a></li>
-            <div
-              style="background-color: #E96B56;border-radius: 50px;display: flex;align-items: center; justify-content: center;">
-              <a href="contact.html" style="color: white;">Contact Us</a>
-            </div>
-          </ul>
-          <!-- <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="team.html">Team</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="blog.html" class="active">Blog</a></li>
-            <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Dropdown 1</a></li>
-                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                  <ul>
-                    <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Dropdown 2</a></li>
-                <li><a href="#">Dropdown 3</a></li>
-                <li><a href="#">Dropdown 4</a></li>
-              </ul>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul> -->
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
-
-      </div>
-
-    </div>
-
-  </header>
-
-  <main class="main">
-
-    <!-- Page Title -->
-
-    <div class="">
-      <section class="py-5 bg-light">
-        <div class="container">
-          <div class="row align-items-center g-5">
-
-            <!-- Text Content -->
-            <div class="col-lg-6">
-              <h1 class="fw-bold mb-3" style="color: #E96B56;" data-aos="fade-right">Source Trade Network</h1>
-              <h4 class="text-muted fst-italic mb-4" data-aos="fade-right">"Your Gateway to Seamless Global Trade"</h4>
-
-              <p class="lead mb-4" data-aos="fade-right">
-                We specialize in <strong>fast, compliant, and stress-free customs clearance</strong> for global
-                businesses. Our licensed experts ensure your shipments move across borders smoothly — minimizing delays,
-                avoiding penalties, and eliminating paperwork headaches.
-              </p>
-
-              <a data-aos="fade-right" href="https://www.sourcetradenetwork.com/project-management"
-                class="btn btn-lg px-4 py-2" style="background-color: #E96B56; color: #fff; border-radius: 50px;">
-                Explore Our Services
-              </a>
-            </div>
-            <!-- Hero Image -->
-            <div class="col-lg-6 text-center" data-aos="fade-left">
-              <svg xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"
-                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
-                xmlns="http://www.w3.org/2000/svg" width="500px" height="500px" viewBox="0 0 60.601004 60.601004"
-                version="1.1">
-                <defs />
-
-                <path
-                  d="m 7.7855027,56.032378 c -1.77625,0 -3.21625,-1.44 -3.21625,-3.21625 l 0,-45.0300003 c 0,-1.7775 1.44,-3.2175 3.21625,-3.2175 l 45.0300003,0 c 1.7775,0 3.21625,1.44 3.21625,3.2175 l 0,45.0300003 c 0,1.77625 -1.43875,3.21625 -3.21625,3.21625 l -45.0300003,0 z"
-                  style="fill:#ffffff;fill-opacity:1;stroke: #E96B56;stroke-width:0.60625005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-                <path
-                  d="m 47.203006,25.821126 c -1.42625,-0.39625 -2.9,-0.675 -4.41125,-0.83 l -2.7725,4.74625 -2.77375,-4.74625 c -1.5175,0.15375 -2.99625,0.4325 -4.4275,0.8325 -0.14,0.03875 -0.2775,0.0825 -0.41125,0.13125 -0.28,0.105 -0.51125,0.30625 -0.65875,0.5625 l -9.05375,15.68375 4.66375,0 5.3125,-7.31375 0,13.1025 16.92875,-0.0012 1.4525,-16.60375 c 0.2175,-2.48875 -1.35625,-4.86375 -3.84875,-5.56375"
-                  style="fill: #E96B56;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-                <path
-                  d="m 40.011755,23.803626 c 2.34375,0 4.245,-1.90125 4.245,-4.245 l 0,-2.47625 -8.86875,0 -1.78125,2.1225 2.15875,0 0,0.35375 c 0,2.34375 1.90125,4.245 4.24625,4.245"
-                  style="fill: #E96B56;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-                <path d="m 44.256755,16.021126 0.84125,-2.31125 -11.545,-1.62375 1.835,3.935 8.86875,0"
-                  style="fill: #E96B56;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-                <path
-                  d="m 14.163004,45.738627 c 0,1.2425 1.00875,2.25 2.2525,2.25 l 12.22125,0 c 1.2425,0 2.25125,-1.0075 2.25125,-2.25 l 0,-2.57375 -16.725,0 0,2.57375"
-                  style="fill: #E96B56;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-                <path
-                  d="m 11.591753,26.441126 c -1.24375,0 -2.2525003,1.0075 -2.2525003,2.2525 l 0,12.22 c 0,1.24375 1.0087503,2.25125 2.2525003,2.25125 l 2.57125,0 0,-16.72375 -2.57125,0"
-                  style="fill: #E96B56;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-              </svg>
-            </div>
+  <body class="blog-page">
+    <header id="header" class="header sticky-top">
+      <div class="topbar d-flex align-items-center dark-background">
+        <div
+          class="container d-flex justify-content-center justify-content-md-between"
+        >
+          <div class="contact-info d-flex align-items-center">
+            <i class="bi bi-envelope d-flex align-items-center"
+              ><a href="mailto:contact@example.com">contact@example.com</a></i
+            >
+            <i class="bi bi-phone d-flex align-items-center ms-4"
+              ><span>+1 5589 55488 55</span></i
+            >
           </div>
-        </div>
-      </section>
-      <section class="py-5" style="background-color: #fff;">
-        <div class="container">
-          <div class="text-center mb-5">
-            <h2 class="fw-bold" style="color: #E96B56;"> Our Customs Clearance Services</h2>
-            <p class="lead text-muted">Fast, reliable, and globally compliant clearance for imports and exports.</p>
-          </div>
-
-          <div class="row  d-flex justify-content-center gap-5">
-            <!-- Card 1 -->
-            <div class="col-md-6 col-lg-5" style='border: 1px solid #E96B56;border-radius: 10px;'>
-              <div class="d-flex align-items-center justify-content-center mb-5 mt-5">
-                <div class="p-2 rounded-circle d-flex align-items-center justify-content-center "
-                  style='background-color: #E96B56;width:100px;height: 100px;'>
-                  <i class="bi bi-file-earmark-code-fill " style='color: white;font-size: 40px;'></i>
-                </div>
-              </div>
-              <div class="card  border-0 shadow-sm">
-                <div class="card-body">
-                  <h5 class="card-title" style="color: #E96B56;"> Complete Documentation Handling</h5>
-                  <ul class="mt-3 custom-bullet">
-                    <li><strong>HS Code Classification</strong> – Avoid costly errors with accurate tariffs</li>
-                    <li><strong>Document Submission</strong> – Invoices, packing lists, certificates, more</li>
-                    <li><strong>Permits & Licenses</strong> – For regulated or restricted goods</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="col-md-6 col-lg-5" style='border: 1px solid #E96B56;border-radius: 10px;'>
-              <div class="d-flex align-items-center justify-content-center mb-5 mt-5">
-                <div class="p-2 rounded-circle d-flex align-items-center justify-content-center "
-                  style='background-color: #E96B56;width:100px;height: 100px;'>
-                  <i class="bi bi-file-earmark-person" style='color: white;font-size: 40px;'></i>
-                </div>
-              </div>
-              <div class="card  border-0 shadow-sm">
-                <div class="card-body">
-                  <h5 class="card-title" style="color: #E96B56;"> Licensed Customs Brokerage</h5>
-                  <ul class="mt-3 custom-bullet">
-                    <li><strong>Port & Airport Clearance</strong> – Global authority relationships</li>
-                    <li><strong>Duty & Tax Calculation</strong> – Clear cost breakdowns, no surprises</li>
-                    <li><strong>Inspection Coordination</strong> – Fast response to customs holds</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="col-md-6 col-lg-5" style='border: 1px solid #E96B56;border-radius: 10px;'>
-              <div class="d-flex align-items-center justify-content-center mb-5 mt-5">
-                <div class="p-2 rounded-circle d-flex align-items-center justify-content-center "
-                  style='background-color: #E96B56;width:100px;height: 100px;'>
-                  <i class="bi bi-globe" style='color: white;font-size: 40px;'></i>
-                </div>
-              </div>
-              <div class="card  border-0 shadow-sm">
-                <div class="card-body">
-                  <h5 class="card-title" style="color: #E96B56;"> Global Compliance Expertise</h5>
-                  <ul class="mt-3 custom-bullet">
-                    <li><strong>Region-Specific Knowledge</strong> – Middle East, Asia, Europe, North America</li>
-                    <li><strong>Industry Guidance</strong> – Food, electronics, textiles, medical goods</li>
-                    <li><strong>Restricted Goods Support</strong> – For controlled & sensitive shipments</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <!-- Card 4 -->
-            <div class="col-md-6 col-lg-5 " style='border: 1px solid #E96B56;border-radius: 10px;'>
-              <div class="d-flex align-items-center justify-content-center mb-5 mt-5">
-                <div class="p-2 rounded-circle d-flex align-items-center justify-content-center "
-                  style='background-color: #E96B56;width:100px;height: 100px;'>
-                  <i class="bi bi-boxes" style='color: white;font-size: 40px;'></i>
-
-
-                </div>
-              </div>
-              <div class="card  border-0 shadow-sm">
-                <div class="card-body">
-                  <h5 class="card-title" style="color: #E96B56;"> Expedited Clearance Solutions</h5>
-                  <ul class="mt-3 custom-bullet">
-                    <li><strong>Pre-Clearance Processing</strong> – Speed up release before arrival</li>
-                    <li><strong>24/7 Emergency Support</strong> – For critical or time-sensitive cargo</li>
-                    <li><strong>Real-Time Tracking</strong> – Full shipment visibility throughout clearance</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <section id="services" class="services section">
-        <div style='text-align: center;font-size: 40px; font-weight: 700;margin-bottom: 30px;'>Why choose us?</div>
-        <div class="container">
-          <div class="row gy-4">
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-              <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="bi bi-globe2  me-2"></i>
-                </div>
-                <a href="#" class="stretched-link">
-                  <h3>Local Experts, Global Reach</h3>
-                </a>
-                <p>
-                  Deep knowledge of customs in 50+ countries
-                </p>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-              <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="bi bi-shield-check me-2"></i>
-                </div>
-                <a href="#" class="stretched-link">
-                  <h3>First-Time-Right Compliance</h3>
-                </a>
-                <p>
-                  Avoid costly delays, fines, or shipment rejections
-                </p>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-              <div class="service-item position-relative">
-                <div class="icon">
-                <i class="bi bi-people-fill me-2"></i>
-                </div>
-                <a href="#" class="stretched-link">
-                  <h3> Industry-Specialized Teams</h3>
-                </a>
-                <p>
-                  Experience with e-commerce, manufacturing, and logistics
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-              <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="bi bi-translate me-2"></i>
-                </div>
-                <a href="#" class="stretched-link">
-                  <h3>Multilingual Support</h3>
-                </a>
-                <p>
-                  Clear communication in English, Arabic, Mandarin, and more
-                </p>
-                <a href="#" class="stretched-link"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-    </div>
-
-  </main>
-
-  <footer id="footer" class="footer position-relative dark-background">
-
-    <div class="footer-newsletter">
-      <div class="container">
-        <div class="row justify-content-center text-center">
-          <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-            <form action="forms/newsletter.php" method="post" class="php-email-form">
-              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe">
-              </div>
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-            </form>
+          <div class="social-links d-none d-md-flex align-items-center">
+            <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
       </div>
-    </div>
+      <!-- End Top Bar -->
 
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="d-flex align-items-center">
-            <span class="sitename">Eterna</span>
+      <div class="branding">
+        <div
+          class="container position-relative d-flex align-items-center justify-content-between"
+        >
+          <a href="index.html" class="logo d-flex align-items-center">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <!-- <img src="assets/img/logo.webp" alt=""> -->
+            <h1 class="sitename">Eterna<br /></h1>
           </a>
-          <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+
+          <nav id="navmenu" class="navmenu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="general-trading.html">General Trading</a></li>
+              <li><a href="project-management.html">Project Management</a></li>
+              <li><a href="customs.html" class="active">Customs</a></li>
+              <li><a href="marketing.html">Marketing</a></li>
+              <li><a href="e-commerce.html">Our Products</a></li>
+              <div
+                style="
+                  background-color: #e96b56;
+                  border-radius: 50px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                "
+              >
+                <a href="contact.html" style="color: white">Contact Us</a>
+              </div>
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Page Title -->
+
+      <div class="">
+        <section class="py-5 bg-light">
+          <div class="container">
+            <div class="row align-items-center g-5">
+              <!-- Text Content -->
+              <div class="col-lg-6">
+                <h1
+                  class="fw-bold mb-3"
+                  style="color: #e96b56"
+                  data-aos="fade-right"
+                >
+                  Source Trade Network
+                </h1>
+                <h4 class="text-muted fst-italic mb-4" data-aos="fade-right">
+                  "Your Gateway to Seamless Global Trade"
+                </h4>
+
+                <p class="lead mb-4" data-aos="fade-right">
+                  We specialize in
+                  <strong
+                    >fast, compliant, and stress-free customs clearance</strong
+                  >
+                  for global businesses. Our licensed experts ensure your
+                  shipments move across borders smoothly — minimizing delays,
+                  avoiding penalties, and eliminating paperwork headaches.
+                </p>
+
+                <a
+                  data-aos="fade-right"
+                  href="https://www.sourcetradenetwork.com/project-management"
+                  class="btn btn-lg px-4 py-2"
+                  style="
+                    background-color: #e96b56;
+                    color: #fff;
+                    border-radius: 50px;
+                  "
+                >
+                  Explore Our Services
+                </a>
+              </div>
+              <!-- Hero Image -->
+              <div class="col-lg-6 text-center" data-aos="fade-left">
+                <svg
+                  xmlns:cc="http://creativecommons.org/ns#"
+                  xmlns:dc="http://purl.org/dc/elements/1.1/"
+                  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                  xmlns:svg="http://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="500px"
+                  height="500px"
+                  viewBox="0 0 60.601004 60.601004"
+                  version="1.1"
+                >
+                  <defs />
+
+                  <path
+                    d="m 7.7855027,56.032378 c -1.77625,0 -3.21625,-1.44 -3.21625,-3.21625 l 0,-45.0300003 c 0,-1.7775 1.44,-3.2175 3.21625,-3.2175 l 45.0300003,0 c 1.7775,0 3.21625,1.44 3.21625,3.2175 l 0,45.0300003 c 0,1.77625 -1.43875,3.21625 -3.21625,3.21625 l -45.0300003,0 z"
+                    style="
+                      fill: #ffffff;
+                      fill-opacity: 1;
+                      stroke: #e96b56;
+                      stroke-width: 0.60625005;
+                      stroke-linecap: butt;
+                      stroke-linejoin: miter;
+                      stroke-miterlimit: 4;
+                      stroke-dasharray: none;
+                      stroke-opacity: 1;
+                    "
+                  />
+                  <path
+                    d="m 47.203006,25.821126 c -1.42625,-0.39625 -2.9,-0.675 -4.41125,-0.83 l -2.7725,4.74625 -2.77375,-4.74625 c -1.5175,0.15375 -2.99625,0.4325 -4.4275,0.8325 -0.14,0.03875 -0.2775,0.0825 -0.41125,0.13125 -0.28,0.105 -0.51125,0.30625 -0.65875,0.5625 l -9.05375,15.68375 4.66375,0 5.3125,-7.31375 0,13.1025 16.92875,-0.0012 1.4525,-16.60375 c 0.2175,-2.48875 -1.35625,-4.86375 -3.84875,-5.56375"
+                    style="
+                      fill: #e96b56;
+                      fill-opacity: 1;
+                      fill-rule: nonzero;
+                      stroke: none;
+                    "
+                  />
+                  <path
+                    d="m 40.011755,23.803626 c 2.34375,0 4.245,-1.90125 4.245,-4.245 l 0,-2.47625 -8.86875,0 -1.78125,2.1225 2.15875,0 0,0.35375 c 0,2.34375 1.90125,4.245 4.24625,4.245"
+                    style="
+                      fill: #e96b56;
+                      fill-opacity: 1;
+                      fill-rule: nonzero;
+                      stroke: none;
+                    "
+                  />
+                  <path
+                    d="m 44.256755,16.021126 0.84125,-2.31125 -11.545,-1.62375 1.835,3.935 8.86875,0"
+                    style="
+                      fill: #e96b56;
+                      fill-opacity: 1;
+                      fill-rule: nonzero;
+                      stroke: none;
+                    "
+                  />
+                  <path
+                    d="m 14.163004,45.738627 c 0,1.2425 1.00875,2.25 2.2525,2.25 l 12.22125,0 c 1.2425,0 2.25125,-1.0075 2.25125,-2.25 l 0,-2.57375 -16.725,0 0,2.57375"
+                    style="
+                      fill: #e96b56;
+                      fill-opacity: 1;
+                      fill-rule: nonzero;
+                      stroke: none;
+                    "
+                  />
+                  <path
+                    d="m 11.591753,26.441126 c -1.24375,0 -2.2525003,1.0075 -2.2525003,2.2525 l 0,12.22 c 0,1.24375 1.0087503,2.25125 2.2525003,2.25125 l 2.57125,0 0,-16.72375 -2.57125,0"
+                    style="
+                      fill: #e96b56;
+                      fill-opacity: 1;
+                      fill-rule: nonzero;
+                      stroke: none;
+                    "
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="py-5" style="background-color: #fff">
+          <div class="container">
+            <div class="text-center mb-5">
+              <h2 class="fw-bold" style="color: #e96b56">
+                Our Customs Clearance Services
+              </h2>
+              <p class="lead text-muted">
+                Fast, reliable, and globally compliant clearance for imports and
+                exports.
+              </p>
+            </div>
+
+            <div class="row d-flex justify-content-center gap-5">
+              <!-- Card 1 -->
+              <div
+                class="col-md-6 col-lg-5"
+                style="border: 1px solid #e96b56; border-radius: 10px"
+              >
+                <div
+                  class="d-flex align-items-center justify-content-center mb-5 mt-5"
+                >
+                  <div
+                    class="p-2 rounded-circle d-flex align-items-center justify-content-center"
+                    style="
+                      background-color: #e96b56;
+                      width: 100px;
+                      height: 100px;
+                    "
+                  >
+                    <i
+                      class="bi bi-file-earmark-code-fill"
+                      style="color: white; font-size: 40px"
+                    ></i>
+                  </div>
+                </div>
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title" style="color: #e96b56">
+                      Complete Documentation Handling
+                    </h5>
+                    <ul class="mt-3 custom-bullet">
+                      <li>
+                        <strong>HS Code Classification</strong> – Avoid costly
+                        errors with accurate tariffs
+                      </li>
+                      <li>
+                        <strong>Document Submission</strong> – Invoices, packing
+                        lists, certificates, more
+                      </li>
+                      <li>
+                        <strong>Permits & Licenses</strong> – For regulated or
+                        restricted goods
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+              <div
+                class="col-md-6 col-lg-5"
+                style="border: 1px solid #e96b56; border-radius: 10px"
+              >
+                <div
+                  class="d-flex align-items-center justify-content-center mb-5 mt-5"
+                >
+                  <div
+                    class="p-2 rounded-circle d-flex align-items-center justify-content-center"
+                    style="
+                      background-color: #e96b56;
+                      width: 100px;
+                      height: 100px;
+                    "
+                  >
+                    <i
+                      class="bi bi-file-earmark-person"
+                      style="color: white; font-size: 40px"
+                    ></i>
+                  </div>
+                </div>
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title" style="color: #e96b56">
+                      Licensed Customs Brokerage
+                    </h5>
+                    <ul class="mt-3 custom-bullet">
+                      <li>
+                        <strong>Port & Airport Clearance</strong> – Global
+                        authority relationships
+                      </li>
+                      <li>
+                        <strong>Duty & Tax Calculation</strong> – Clear cost
+                        breakdowns, no surprises
+                      </li>
+                      <li>
+                        <strong>Inspection Coordination</strong> – Fast response
+                        to customs holds
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 3 -->
+              <div
+                class="col-md-6 col-lg-5"
+                style="border: 1px solid #e96b56; border-radius: 10px"
+              >
+                <div
+                  class="d-flex align-items-center justify-content-center mb-5 mt-5"
+                >
+                  <div
+                    class="p-2 rounded-circle d-flex align-items-center justify-content-center"
+                    style="
+                      background-color: #e96b56;
+                      width: 100px;
+                      height: 100px;
+                    "
+                  >
+                    <i
+                      class="bi bi-globe"
+                      style="color: white; font-size: 40px"
+                    ></i>
+                  </div>
+                </div>
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title" style="color: #e96b56">
+                      Global Compliance Expertise
+                    </h5>
+                    <ul class="mt-3 custom-bullet">
+                      <li>
+                        <strong>Region-Specific Knowledge</strong> – Middle
+                        East, Asia, Europe, North America
+                      </li>
+                      <li>
+                        <strong>Industry Guidance</strong> – Food, electronics,
+                        textiles, medical goods
+                      </li>
+                      <li>
+                        <strong>Restricted Goods Support</strong> – For
+                        controlled & sensitive shipments
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 4 -->
+              <div
+                class="col-md-6 col-lg-5"
+                style="border: 1px solid #e96b56; border-radius: 10px"
+              >
+                <div
+                  class="d-flex align-items-center justify-content-center mb-5 mt-5"
+                >
+                  <div
+                    class="p-2 rounded-circle d-flex align-items-center justify-content-center"
+                    style="
+                      background-color: #e96b56;
+                      width: 100px;
+                      height: 100px;
+                    "
+                  >
+                    <i
+                      class="bi bi-boxes"
+                      style="color: white; font-size: 40px"
+                    ></i>
+                  </div>
+                </div>
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title" style="color: #e96b56">
+                      Expedited Clearance Solutions
+                    </h5>
+                    <ul class="mt-3 custom-bullet">
+                      <li>
+                        <strong>Pre-Clearance Processing</strong> – Speed up
+                        release before arrival
+                      </li>
+                      <li>
+                        <strong>24/7 Emergency Support</strong> – For critical
+                        or time-sensitive cargo
+                      </li>
+                      <li>
+                        <strong>Real-Time Tracking</strong> – Full shipment
+                        visibility throughout clearance
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="services" class="services section">
+          <div
+            style="
+              text-align: center;
+              font-size: 40px;
+              font-weight: 700;
+              margin-bottom: 30px;
+            "
+          >
+            Why choose us?
+          </div>
+          <div class="container">
+            <div class="row gy-4">
+              <div
+                class="col-lg-3 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div class="service-item position-relative">
+                  <div class="icon">
+                    <i class="bi bi-globe2 me-2"></i>
+                  </div>
+                  <a href="#" class="stretched-link">
+                    <h3>Local Experts, Global Reach</h3>
+                  </a>
+                  <p>Deep knowledge of customs in 50+ countries</p>
+                </div>
+              </div>
+              <!-- End Service Item -->
+
+              <div
+                class="col-lg-3 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="service-item position-relative">
+                  <div class="icon">
+                    <i class="bi bi-shield-check me-2"></i>
+                  </div>
+                  <a href="#" class="stretched-link">
+                    <h3>First-Time-Right Compliance</h3>
+                  </a>
+                  <p>Avoid costly delays, fines, or shipment rejections</p>
+                </div>
+              </div>
+              <!-- End Service Item -->
+
+              <div
+                class="col-lg-3 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div class="service-item position-relative">
+                  <div class="icon">
+                    <i class="bi bi-people-fill me-2"></i>
+                  </div>
+                  <a href="#" class="stretched-link">
+                    <h3>Industry-Specialized Teams</h3>
+                  </a>
+                  <p>
+                    Experience with e-commerce, manufacturing, and logistics
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <div class="service-item position-relative">
+                  <div class="icon">
+                    <i class="bi bi-translate me-2"></i>
+                  </div>
+                  <a href="#" class="stretched-link">
+                    <h3>Multilingual Support</h3>
+                  </a>
+                  <p>
+                    Clear communication in English, Arabic, Mandarin, and more
+                  </p>
+                  <a href="#" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="py-5 bg-white">
+          <div class="container">
+            <h2 class="text-center fw-bold mb-4" style="color: black">
+              Who We Serve
+            </h2>
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-3">
+                <div
+                  class="card h-100 border-1 shadow-sm"
+                  style="border: 1px solid #e96b56"
+                >
+                  <div class="card-body text-center">
+                    <div class="mb-3">
+                      <i
+                        class="bi bi-box-seam"
+                        style="font-size: 2rem; color: #e96b56"
+                      ></i>
+                    </div>
+                    <h5 class="card-title fw-semibold">
+                      Importers & Exporters
+                    </h5>
+                    <p class="card-text text-muted">
+                      Businesses of all sizes moving goods internationally with
+                      ease.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-3">
+                <div
+                  class="card h-100 border-1 shadow-sm"
+                  style="border: 1px solid #e96b56"
+                >
+                  <div class="card-body text-center">
+                    <div class="mb-3">
+                      <i
+                        class="bi bi-cart-check"
+                        style="font-size: 2rem; color: #e96b56"
+                      ></i>
+                    </div>
+                    <h5 class="card-title fw-semibold">E-Commerce Sellers</h5>
+                    <p class="card-text text-muted">
+                      Amazon FBA, Shopify, and cross-border online retailers.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-3">
+                <div
+                  class="card h-100 border-1 shadow-sm"
+                  style="border: 1px solid #e96b56"
+                >
+                  <div class="card-body text-center">
+                    <div class="mb-3">
+                      <i
+                        class="bi bi-truck"
+                        style="font-size: 2rem; color: #e96b56"
+                      ></i>
+                    </div>
+                    <h5 class="card-title fw-semibold">Freight Forwarders</h5>
+                    <p class="card-text text-muted">
+                      Partners needing reliable customs brokerage support.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-3">
+                <div
+                  class="card h-100 border-1 shadow-sm"
+                  style="border: 1px solid #e96b56"
+                >
+                  <div class="card-body text-center">
+                    <div class="mb-3">
+                      <i
+                        class="bi bi-gear-fill"
+                        style="font-size: 2rem; color: #e96b56"
+                      ></i>
+                    </div>
+                    <h5 class="card-title fw-semibold">
+                      Manufacturers & Distributors
+                    </h5>
+                    <p class="card-text text-muted">
+                      Companies with complex supply chain requirements.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="py-5 bg-light">
+          <div class="container">
+            <div class="row align-items-center justify-content-center g-4">
+              <div class="col-md-7" style = 'display: flex;flex-direction:column;align-items: center;justify-content: center;'>
+                <div class="d-flex align-items-center mb-3">
+                  <i
+                    class="bi bi-box-fill me-3"
+                    style="font-size: 2.5rem; color: #e96b56"
+                  ></i>
+                  <h2 class="fw-bold m-0" style="color: #e96b56">
+                    📦 Clear Customs with Confidence
+                  </h2>
+                </div>
+                <p class="lead text-muted text-center">
+                  Stop worrying about border delays and paperwork bottlenecks.
+                  Let our experts handle your customs clearance from start to
+                  finish.
+                </p>
+                <ul class="list-unstyled mt-4">
+                  <li class="mb-2">
+                    <i class="bi bi-envelope-fill me-2 text-dark"></i>
+                    <strong>Email:</strong>
+                    <a
+                      href="mailto:customs@sourcetradenetwork.com"
+                      class="text-decoration-none"
+                      style="color: #e96b56"
+                      >customs@sourcetradenetwork.com</a
+                    >
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-telephone-fill me-2 text-dark"></i>
+                    <strong>Call:</strong>
+                    <a
+                      href="tel:+YourContactNumber"
+                      class="text-decoration-none"
+                      style="color: #e96b56"
+                      >+Your Contact Number</a
+                    >
+                  </li>
+                  <li>
+                    <i class="bi bi-globe me-2 text-dark"></i>
+                    <strong>Free Consultation:</strong>
+                    <a
+                      href="https://www.sourcetradenetwork.com/customs-clearance"
+                      class="text-decoration-none"
+                      style="color: #e96b56"
+                      target="_blank"
+                    >
+                      www.sourcetradenetwork.com/customs-clearance
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer position-relative dark-background">
+      <div class="footer-newsletter">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-6">
+              <h4>Join Our Newsletter</h4>
+              <p>
+                Subscribe to our newsletter and receive the latest news about
+                our products and services!
+              </p>
+              <form
+                action="forms/newsletter.php"
+                method="post"
+                class="php-email-form"
+              >
+                <div class="newsletter-form">
+                  <input type="email" name="email" /><input
+                    type="submit"
+                    value="Subscribe"
+                  />
+                </div>
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">
+                  Your subscription request has been sent. Thank you!
+                </div>
+              </form>
+            </div>
           </div>
         </div>
+      </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-          </ul>
-        </div>
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="d-flex align-items-center">
+              <span class="sitename">Eterna</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>A108 Adam Street</p>
+              <p>New York, NY 535022</p>
+              <p class="mt-3">
+                <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+              </p>
+              <p><strong>Email:</strong> <span>info@example.com</span></p>
+            </div>
+          </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-          </ul>
-        </div>
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+              <li>
+                <i class="bi bi-chevron-right"></i> <a href="#">About us</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i> <a href="#">Services</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#">Terms of service</a>
+              </li>
+            </ul>
+          </div>
 
-        <div class="col-lg-4 col-md-12">
-          <h4>Follow Us</h4>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-          <div class="social-links d-flex">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li>
+                <i class="bi bi-chevron-right"></i> <a href="#">Web Design</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#">Web Development</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#">Product Management</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i> <a href="#">Marketing</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12">
+            <h4>Follow Us</h4>
+            <p>
+              Cras fermentum odio eu feugiat lide par naso tierra videa magna
+              derita valies
+            </p>
+            <div class="social-links d-flex">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
           </div>
         </div>
-
       </div>
-    </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Eterna</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename">Eterna</strong>
+          <span>All Rights Reserved</span>
+        </p>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
       </div>
-    </div>
+    </footer>
 
-  </footer>
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
